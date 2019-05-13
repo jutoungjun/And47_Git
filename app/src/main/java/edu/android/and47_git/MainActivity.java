@@ -1,5 +1,6 @@
 package edu.android.and47_git;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -11,6 +12,7 @@ private TextView textView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textView = findViewById(R.id.TextView);
-        textView.setText("My prograr")
+        textView.setText("My prograr");
+        textView.setTextColor(Color.RED);
     }
 }
