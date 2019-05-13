@@ -11,6 +11,7 @@ private TextView textView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textView = findViewById(R.id.TextView);
-        textView.setText("My prograr")
+        textView.setText("My prograr");
+        text.setTextSize(24)
     }
 }
