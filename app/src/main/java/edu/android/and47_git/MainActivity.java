@@ -12,5 +12,6 @@ private TextView textView;
         setContentView(R.layout.activity_main);
         textView = findViewById(R.id.TextView);
         textView.setText("My prograr");
+        textView.setTextColor(Color.Blue)
     }
 }
